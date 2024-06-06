@@ -1,0 +1,59 @@
+#header{
+    background-image: linear-gradient(to right, rgb(130,108,223),  rgb(136,117,243), rgb(154,139,243) );
+    grid-column: 1/4;
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;  
+}
+#sidebar{
+    background-image: linear-gradient(to top right, rgb(52, 190, 184), rgb(63,207,200), rgb(84,247,238)); 
+    grid-column: 1/2;
+    grid-row: 2/4;  
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;  
+}
+#content1{
+    background-image: linear-gradient(to bottom right, rgb(139, 48, 224), rgb(154,66,236), rgb(186,117,250));
+    grid-column: 2/4;
+    align-content: center;
+    text-align: center; 
+    border: 1px solid black;  
+       
+}
+#content2{
+    background-image: linear-gradient(to bottom right, rgb(139, 48, 224), rgb(154,66,236), rgb(186,117,250));
+    grid-column: 2/3;
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;  
+
+}
+#content3{
+    background-image: linear-gradient(to bottom right, rgb(139, 48, 224), rgb(154,66,236), rgb(186,117,250)); 
+    grid-column: 3/4;
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;  
+}
+#footer{
+    background-image: linear-gradient(to right, rgb(130,108,223),  rgb(136,117,243), rgb(154,139,243) );
+    grid-column: 1/4;
+    align-content: center;
+    text-align: center;  
+    border: 1px solid black;  
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%r);
+    grid-template-rows: 60px 200px 200px 80px;
+    color: white;
+    height: 100%;
+    width: 100;
+   
+    
+
+
+    grid-gap: 3px;
+}
